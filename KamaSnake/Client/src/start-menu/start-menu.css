@@ -1,0 +1,21 @@
+﻿.start-menu-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.start-button {
+    padding: 17px 15px 17px 15px;
+    background-color: blue;
+    border: 1px solid black;
+    box-shadow: 0px 0px 5px 2px rgb(255, 216, 0);
+    color: red;
+    font-size: 30px;
+    font-family: fantasy;
+}
+
+.start-button:hover {
+    cursor: pointer;
+    background-color: mediumblue;
+    transition: 0.3s;
+}
